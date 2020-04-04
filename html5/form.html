@@ -27,15 +27,15 @@
     <form action="https://formspree.io/myydkyjj" method="POST">
         <label>
             Your Name:
-            <input type="text" name="name">
+            <input type="text" name="name" required>
         </label>
         <label>
             Your Email:
-            <input type="email" name="_replyto">
+            <input type="email" name="_replyto" required>
         </label>
         <label>
             Phone:
-            <input type="number" name="phone">
+            <input type="number" name="phone" required>
         </label>
         <label>
             Message:
@@ -46,7 +46,12 @@
             <option value="Kraków" selected>Kraków</option>
             <option value="Gdańsk">Gdańsk</option>
         </select></label>
+        <input type="checkbox" name="plec" id="plec">Męzczyzna
+        <input type="checkbox" name="plec" id="plec">Kobieta
+        <input type="radio" name="zgody" id="zgody" required>Wyrażam zgodę
         <input type="submit" value="Send">
+        
+
     </form>
 </body>
 
