@@ -1,0 +1,22 @@
+#duzy {
+    width: 400px;
+    height: 400px;
+    background-color: #a6a9b6;
+    border: 10px solid #666360;
+}
+
+.maly{
+    width: 200px;
+    height: 200px;
+}
+
+#orange {
+    position: absolute;
+    margin-top: 200px;
+    background-color: #ff912e;
+}
+#white {
+    position: absolute;
+    margin-left: 200px;
+    background-color: #e4e4e4;
+}
