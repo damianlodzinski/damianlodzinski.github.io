@@ -1,0 +1,10 @@
+input[type="text"] {
+    background-color: yellow;
+}
+input[type="submit"] {
+    background-color: lightcoral;
+    width: 100px;
+}
+input[type="submit"]:hover {
+    background-color: green;
+}
