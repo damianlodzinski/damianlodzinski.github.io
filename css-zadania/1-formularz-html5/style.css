@@ -20,6 +20,7 @@ input {
     width: 300px;
     height: 25px;
     margin-top: 5px;
+    margin-bottom: 10px;
 }
 input[type="radio"] {
     display: inline-block;
