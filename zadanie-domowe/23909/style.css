@@ -1,0 +1,142 @@
+body {
+    width: auto;
+}
+
+header {
+    background-color: #c9c9c9;    
+    height: 350px;
+    width: 100%;
+    display: table;
+}
+h1 {
+    color: #2a6fc2;
+    font-size: 70px;
+    text-align: center;  
+    display: table-cell;
+    vertical-align: middle;
+}
+
+nav {
+    height: 70px;
+    position: sticky;
+    top: 0;
+    text-align: end;
+    background-color: white;
+    z-index: 10000;
+    padding-top: auto;
+    line-height: 70px;
+}
+li {
+    display: inline-block;
+    font-size: 30px;
+    margin: auto;
+    margin-right: 30px;
+    vertical-align: middle;
+}
+
+#omnie {
+    background-color: #edce95;
+    padding-bottom: 80px;
+    padding-top: 20px;
+}
+#portfolio {
+    padding-bottom: 80px;
+    padding-top: 20px;
+    margin: 0 auto;
+    display: table;
+}
+
+footer {
+    background-color: #edce95;
+    padding-bottom: 60px;
+    padding-top: 20px;
+}
+
+
+h2 {
+    font-size: 50px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#omnietekst {
+    position: relative;
+    width: 40%;
+    background-color: white;
+    font-size: 35px;
+    padding: 50px;
+    margin: auto;
+    text-align: center;
+    
+}
+#lewagora {
+    top: -25px;
+    left: -25px;
+}
+#prawagora {
+    top: -25px;
+    right: -25px;
+}
+#lewydol {
+    bottom: -25px;
+    left: -25px;
+}
+#prawydol {
+    bottom: -25px;
+    right: -25px;
+}
+
+#kontakt {
+    position: relative;
+    background-color: #2a6fc2;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+#lewybok {
+    top: 15%;
+    left: -25px;
+}
+#prawybok {
+    bottom: 15%;
+    right: -25px;
+}
+
+.duzekolo {
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    background-color: #808080;
+    border-radius: 100px 100px;
+    margin-right: 50px;
+}
+
+.malekolo {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-color: #2a6fc2;
+    border-radius: 15px 15px;
+    position: relative;
+    top: -15px;
+    left: 85px;
+}
+
+.maleramka {
+    height: 50px;
+    width: 50px;
+    background-color: #808080;
+    border-radius: 25px 25px;
+    display: inline-block;
+    position: absolute;
+}
+
+#kontakt {
+    font-size: 30px;
+    font-style: italic;
+}
+
+
+
