@@ -1,0 +1,53 @@
+button {
+    background-color: orange;
+    color: white;
+    border: 2px dotted blue;
+    width: 100px;
+    height: 50px;
+}
+
+button:hover {
+    background-color: yellow;
+    width: 200px;
+    height: 50px;
+    color: red;
+    border: 5px solid pink;
+}
+
+button:hover::before {
+    content: 'text';
+}
+
+.text-input {
+    background-color: lightgray;
+    border: 2px solid black;
+}
+
+.text-input:focus {
+    background-color: yellow;
+    border: 4px solid blue;
+}
+
+.list-item:first-child {
+    color: red;
+}
+
+.list-item:last-child {
+    color: blue;
+}
+
+.list-item:nth-of-type(6) {
+    color: rosybrown;
+}
+
+.list-item:nth-of-type(odd) {
+    color: royalblue;
+}
+
+.list-item:nth-of-type(3n+2) {
+    background-color: salmon;
+}
+
+section p:nth-child(2) {
+    background-color: yellow;
+}

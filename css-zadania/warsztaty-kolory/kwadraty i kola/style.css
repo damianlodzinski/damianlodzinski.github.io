@@ -1,0 +1,82 @@
+
+.kwadrat {
+    width: 200px;
+    height: 200px;
+    margin: 2px;
+    background-color: grey;
+    display: inline-block;
+   
+}
+.kolo {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 50px 50px;
+    background-color: green;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+#kwadrat1 {
+    background-color: red;
+}
+#kolo1 {
+    background-color: pink;
+}
+
+#kwadrat2 {
+    background-color: blue;
+}
+#kolo2 {
+    background-color: grey;
+}
+
+#kwadrat3 {
+    background-color: green;
+}
+#kolo3 {
+    background-color: purple;
+}
+
+#kwadrat4 {
+    background-color: yellow;
+}
+#kolo4 {
+    background-color: green;
+}
+
+#kwadrat5 {
+    background-color: black;
+}
+#kolo5 {
+    background-color: red:
+}
+
+#kwadrat6 {
+    background-color: orange;
+}
+#kolo6 {
+    background-color: blue;
+}
+
+#kwadrat7 {
+    background-color: purple;
+}
+#kolo7 {
+    background-color: orange;
+}
+
+#kwadrat8 {
+    background-color: gray;
+}
+#kolo8 {
+    background-color: yellow;
+}
+
+#kwadrat9 {
+    background-color: pink;
+}
+#kolo9 {
+    background-color: black;
+}
