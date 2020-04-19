@@ -4,47 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/75c62368ef.js" crossorigin="anonymous"></script>
+    
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <h1>FRONT END DEVELOPER</h1>
-        
+        <h1>FRONT END DEVELOPER<hr></h1>
+            <ul>HTML</ul>
+            <ul><li></li>CSS</ul>
+            <ul><li></li>JavaScript</ul>
+        <button>DOWIEDZ SIĘ WIĘCEJ</button>
     </header>
 
     <nav>
-        <ul>
-            <li><a href="#about">O MNIE</a></li>
-            <li><a href="#portoflio">PORTFOLIO</a></li>
-            <li><a href="footer">KONTAKT</a></li>
-        </ul>
+        <div id="menu">
+            <ul><a href="#about">O MNIE</a></ul>
+            <ul><a href="#portfolio">PORTFOLIO</a></ul>
+            <ul><a href="#contact">KONTAKT</a></ul>
+        </div>
     </nav>
 
     <section id="about">
-        <h2>O MNIE</h2>
-        <img src="img/about.jpg" alt="" srcset="">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus aspernatur porro architecto nemo animi cupiditate, esse commodi deleniti modi blanditiis explicabo ea quidem distinctio inventore, maxime illum in fugit rerum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis perferendis qui a hic exercitationem at ratione dolores illo consectetur amet ducimus, sapiente ea est. Obcaecati sed blanditiis amet magni nesciunt.</p>
+        <div class="main">
+            <h2>O MNIE<hr></h2>        
+            
+            <img src="img/about.jpg" alt="" srcset="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus aspernatur porro architecto nemo animi cupiditate, esse commodi deleniti modi blanditiis explicabo ea quidem distinctio inventore, maxime illum in fugit rerum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis perferendis qui a hic exercitationem at ratione dolores illo consectetur amet ducimus, sapiente ea est. Obcaecati sed blanditiis amet magni nesciunt.</p>
+            <BUtton><a href="#portfolio">MOJE PORTFOLIO</a></BUtton>
+        </div>
     </section>
 
-    <section id="portoflio">
-        <h2>PORTFOLIO</h2>
-        <img src="img/portfolio/photo-1.jpg" alt="" srcset="">
-        <img src="img/portfolio/photo-2.jpg" alt="" srcset="">
-        <img src="img/portfolio/photo-3.jpg" alt="" srcset="">
-        <img src="img/portfolio/photo-5.jpg" alt="" srcset="">
-        <img src="img/portfolio/photo-6.jpg" alt="" srcset="">
-        <img src="img/portfolio/photo-7.jpg" alt="" srcset="">
-        <img src="img/portfolio/photo-8.jpg" alt="" srcset="">
-        <img src="img/portfolio/photo-9.jpg" alt="" srcset="">
-        <img src="img/portfolio/photo-10.jpg" alt="" srcset="">
-        <img src="img/portfolio/photo-11.jpg" alt="" srcset="">
-        <img src="img/portfolio/photo-12.jpg" alt="" srcset="">
+    <section id="portfolio">
+        <div class="main">
+            <h2>PORTFOLIO<hr></h2>
+            <img src="img/portfolio/photo-1.jpg" alt="" srcset="">
+            <img src="img/portfolio/photo-2.jpg" alt="" srcset="">
+            <img src="img/portfolio/photo-3.jpg" alt="" srcset="">
+            <img src="img/portfolio/photo-4.jpg" alt="" srcset="">
+            <img src="img/portfolio/photo-5.jpg" alt="" srcset="">
+            <img src="img/portfolio/photo-6.jpg" alt="" srcset="">
+            <img src="img/portfolio/photo-7.jpg" alt="" srcset="">
+            <img src="img/portfolio/photo-8.jpg" alt="" srcset="">
+            <img src="img/portfolio/photo-9.jpg" alt="" srcset="">
+            <img src="img/portfolio/photo-10.jpg" alt="" srcset="">
+            <img src="img/portfolio/photo-11.jpg" alt="" srcset="">
+            <img src="img/portfolio/photo-12.jpg" alt="" srcset="">
+        </div>
     </section>
 
+    <section id="contact">
+        <div class="main">
+            <h2>KONTAKT<hr></h2>
+            <div id="input">
+                <form action="" method="post">
+                    <input type="text" name="" id="" placeholder="Imię">
+                    <input type="email" name="" id="" placeholder="Email"><br>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Wiadomość"></textarea>
+            </div>
+                <button type="submit">WYŚLIJ WIADOMOŚĆ</button>
+                </form>
+            <div id="social">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter"></i>     
+                <i class="fab fa-instagram"></i>   
+                <i class="fab fa-youtube"></i>
+            </div>
+        </div>
+    </section>
+    
     <footer>
-        <h2>KONTAKT</h2>
+        Copyright
     </footer>
-
 </body>
 </html>
