@@ -1,13 +1,161 @@
 body {
-    width: 100%;
-    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
 }
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+h1 {
+    font-size: 4.2em;
+    color: #007bff
+}
+
+h2 {
+    font-size: 1.9em;
+    color: #333;
+    padding-top: 100px;
+    margin-bottom: 50px;
+}
+
+button {
+    background-color: transparent;
+    border: 1px solid #007bff;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+hr {
+    border: 1px solid #007bff;
+    width: 60px;
+}
+
+p {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#portfolio,
+#about, 
+#contact {
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+#portfolio,
+footer {
+    background-color: #f2f1ed;;
+}
+
+.main {
+    width: 1170px;
+}
+
 
 header {
     background-image: url(../img/header.jpg);
-    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 700px;
+}
+header button {
+    width: 200px;
+    align-self: center;
 }
 
-li {
-    display: inline;
+header ul {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-self: left ;
+}
+
+header ul {
+    color: #333;   
+}
+header li {
+    color: #007bff;
+}
+
+nav {
+    background-color: #007bff;
+    height: 60px;
+    position: sticky;
+    top: 0px;
+}
+
+
+#about {
+    color: #777;
+}
+
+nav,
+nav #menu {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+nav #menu{
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 400px;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+ul a {
+    color: white;
+}
+
+
+#about img {
+    width: 25%;
+    height: 35%;
+    border-radius: 50% 50%;
+}
+#about p {
+    width: 50%;
+    justify-content: center;
+}
+
+#portfolio img {
+    width: 20%;
+    height: 17%;
+}
+
+input,
+textarea {
+    margin-bottom: 10px;
+}
+input {
+    width: 45%;
+    height: 40px;
+}
+textarea {
+    width: 60%;
+}
+
+.fab {
+    font-size: 70px;
+    color: #007bff;
+    padding: 40px;
+}
+.fab:hover {
+    color: #777;
+}
+
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
