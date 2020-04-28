@@ -6,7 +6,9 @@ header {
     background-color: #c9c9c9;    
     height: 350px;
     width: 100%;
-    display: table;    
+    display: table;
+    text-align: center;
+    position: relative;  
 }
 
 #trojkat {
@@ -15,6 +17,9 @@ header {
     border-top: 350px solid #2a6fc2;
     border-right: 30vw solid transparent;
     margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 h1 {
