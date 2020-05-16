@@ -1,0 +1,110 @@
+body {
+font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h1 p {
+    font-size: 18px;
+}
+
+h2 {
+    color: #000;
+}
+
+p {
+    color: #888;
+}
+
+.light-color {
+    color: #c2c2c2;
+    z-index: 9999999!important;
+}
+
+.fff-color {
+    color: #fff;
+}
+
+
+.btn-orange {
+    background-color: #e38f42;
+    border: 0px;
+    color: #fff;
+    padding: 15px;
+}
+
+.btn-transparent {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 0px;
+    color: #fff;
+    padding: 15px;
+}
+.orange-href {
+    color: #e38f42;
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+nav .container {
+    padding: 5px;
+}
+
+.back-color {
+    background-color: #444;
+    color: #fff;
+    z-index: 9999999999999;
+}
+
+.form {
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}
+.center-item {
+    text-align: center;
+}
+
+.head-bg-h1 {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.fa-pencil-alt {
+    font-size: 34px;
+}
+
+.input-size {
+    width: 100%;
+    margin: auto;
+}
+.margin-bottom {
+    margin-bottom: 0px;
+}
+
+.world-center {
+    text-align: center;
+}
+
+
+header {
+    background-image: url('../img/form-background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+iframe {
+    height: 100%;
+    width: 90%;
+}
+
+
+footer {
+    background-color: #f8f8f8;
+}
